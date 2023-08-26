@@ -1,0 +1,183 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* Awal code */
+.container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header{
+    background-color: #404146;
+    height: 60px;
+    color: white;
+}
+
+.logo{
+  float: left;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 20px;
+  letter-spacing: 5px;
+}
+
+.header-menu{
+  float: left;
+  margin: 10px 15px;
+}
+
+.menu{
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  line-height: 40px;
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.menu:hover{
+  background-color: rgba(118, 113, 113, 0.5);
+}
+
+.menu:active{
+  background-color: rgba(118, 113, 113, 1);
+}
+
+.content{
+  padding: 50px 0;
+}
+
+.gray-content{
+  padding: 50px 0;
+  background-color: #F2F2F2;
+}
+.first-content{
+  text-align: center;
+}
+
+.first-content h1{
+  font-size: 50px;
+}
+
+.first-content span{
+  color: #F1D00E;
+}
+
+.first-content h2{
+  font-weight: lighter;
+}
+
+.first-content img{
+  width: 150px;
+}
+
+.first-content h1, h2, img{
+  padding-bottom: 10px;
+}
+
+.about-content{
+  text-align: center;
+}
+
+.img-content{
+  text-align: center;
+}
+
+.title-content{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image{
+  width: 100%;
+}
+
+.content-wrap{
+  width: 25%;
+}
+
+.konten{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-content{
+  display: block;
+  width: 500px;
+  margin: 10px auto;
+  border: 1px solid #dee7ec;
+  padding: 10px 10px;
+}
+
+.btn-kirim{
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 0, 0.8);
+  box-shadow: 0px 7px rgba(158, 154, 0, 0.8);
+  border: 1px solid rgba(255, 255, 0, 0.8);
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.btn-kirim:hover{
+  background-color: rgba(255, 255, 0, 1);
+  box-shadow: 0px 7px rgba(158, 154, 0, 1);
+  border: 1px solid rgba(255, 255, 0, 1);
+}
+
+.btn-kirim:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer{
+  background-color: #404146;
+  height: 135px;
+}
+
+.footer-menu{
+  float: right;
+  margin: 20px 0;
+}
+
+.footer-menu a{
+  display: block;
+  color: white;
+  padding-bottom: 15px;
+}
+
+
+
+
